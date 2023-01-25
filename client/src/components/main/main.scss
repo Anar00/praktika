@@ -1,0 +1,273 @@
+.popular {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  .contanier {
+    display: flex;
+    justify-content: center;
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      .col {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+
+        .section_title {
+          .xet {
+            width: 55px;
+            height: 4px;
+            position: absolute;
+            left: 50%;
+            background-color: #ffb606;
+            transform: translateX(-50%);
+          }
+          h1 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            color: #1a1a1a;
+            font-weight: 500;
+            padding-top: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+.course_boxes {
+  margin-top: 120px;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  .course_box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .card {
+      display: block;
+      background: #f8f9fb;
+      border: none;
+      position: relative;
+      min-width: 0;
+      word-wrap: break-word;
+      border-radius: 0.25rem;
+      img {
+        width: 350px;
+        height: 263px;
+        vertical-align: middle;
+        border-style: none;
+        overflow: clip;
+      }
+      .card-body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center !important;
+        .card-title {
+          margin-top: 55px;
+          margin-bottom: 0.75rem;
+          b {
+            font-size: 29px;
+            font-weight: 500;
+            color: #1a1a1a;
+            line-height: 1.2;
+            touch-action: manipulation;
+          }
+        }
+        .card-text {
+          font-size: 19px;
+          font-weight: 500;
+          color: #a5a5a5;
+          margin-top: -12px;
+        }
+      }
+      .price-box {
+        width: 100%;
+        height: 67px;
+        background: #eaebec;
+        margin-top: 41px;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: row !important;
+        .course_author_image {
+          width: 46px;
+          height: 46px;
+          border-radius: 50%;
+          overflow: hidden;
+          img {
+            vertical-align: middle;
+            border-style: none;
+          }
+        }
+        .course_author_name {
+          font-size: 19px;
+          font-weight: 500;
+          color: #1a1a1a;
+          padding-left: 20px;
+          margin-top: 7px;
+          span {
+            color: #a5a5a5;
+          }
+        }
+        .course_price {
+          width: 67px;
+          height: 67px;
+          background: #ffb606;
+          margin-left: auto;
+          align-items: center !important;
+          justify-content: center !important;
+          flex-direction: column !important;
+          display: flex !important;
+          span {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+.register {
+  width: 100%;
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .row-eq-height {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      .nopadding {
+        padding: 0px !important;
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        .register_section {
+          width: 100%;
+          background: #ffb606;
+          padding-top: 156px;
+          padding-bottom: 161px;
+          align-items: center !important;
+          justify-content: center !important;
+          flex-direction: column !important;
+          display: flex !important;
+          .register_content {
+            width: 522px;
+            text-align: center !important;
+            h1 {
+              color: #ffffff;
+              margin-bottom: 16px;
+              line-height: 1.63;
+              span {
+                color: #1a1a1a;
+              }
+            }
+            p {
+              color: #ffffff;
+              font-weight: 500;
+              margin-top: 32px;
+              padding-left: 25px;
+              padding-right: 25px;
+              margin-bottom: 0px;
+              font-family: "Roboto", sans-serif;
+              font-size: 14px;
+              line-height: 2.29;
+            }
+            button {
+              background: #1a1a1a;
+              margin-top: 65px;
+              width: 202px;
+              height: 48px;
+            }
+          }
+        }
+      }
+      .nopadding {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0px !important;
+        .search_section {
+          width: 100%;
+          height: 100%;
+          background: #ececec;
+        }
+        .search_background {
+            align-items: center;
+          background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg.webp");
+          position: absolute;
+          top: 0;
+          width: 100%;
+          left: 0;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          opacity: 0.23;
+          
+        }
+        .search_content {
+            align-items: center;
+            position: absolute;
+            left: 25%;
+            top: 25%;
+            z-index: 5;
+           width: 522px;
+           text-align: center !important;
+          h1 {
+            font-family: "Roboto", sans-serif;
+            color: #1a1a1a;
+          }
+          .search_form {
+            
+            display: block;
+            margin-top: 57px;
+            input {
+              width: 100%;
+              overflow: visible;
+              margin: 0;
+              font-family: inherit;
+              font-size: inherit;
+              line-height: inherit;
+              height: 42px;
+              background: #ffffff;
+              box-sizing: border-box;
+              border: solid 2px #ffffff;
+              padding-left: 25px;
+              margin-bottom: 24px;
+            }
+            button {
+              width: 100%;
+              height: 48px;
+              background: #ffb606;
+              color: #ffffff;
+              font-size: 14px;
+              text-transform: uppercase;
+              font-weight: 700;
+              margin-top: 28px;
+              border: none;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
