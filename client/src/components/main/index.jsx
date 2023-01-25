@@ -139,7 +139,7 @@ const Main = () => {
                     gravida rutrum, ante nisl fermentum nulla, vitae tempo.
                   </p>
                   <button>
-                    <b>register now</b>
+                    <b>Register Now</b>
                   </button>
                 </div>
               </div>
@@ -147,38 +147,66 @@ const Main = () => {
             <div className="nopadding">
               <div className="search_section"></div>
               <div className="search_background"></div>
-                <div className="search_content">
-                  <h1>Search for your course</h1>
-                  <form className="search_form">
-                    <input
-                      id="search_form_name"
-                      type="text"
-                      placeholder="Course Name"
-                      required="required"
-                      data-error="Course name is required."
-                    />
-                    <input
-                      id="search_form_category"
-                      type="text"
-                      placeholder="Category"
-                    />
-                    <input
-                      id="search_form_category"
-                      type="text"
-                      placeholder="Category"
-                    />
-                    <button
-                      id="search_submit_button"
-                      type="submit"
-                      value="Submit"
-                    >
-                      search course
-                    </button>
-                  </form>
-                </div>
-              
+              <div className="search_content">
+                <h1>Search for your course</h1>
+                <form className="search_form">
+                  <input
+                    id="search_form_name"
+                    type="text"
+                    placeholder="Course Name"
+                    required="required"
+                    data-error="Course name is required."
+                  />
+                  <input
+                    id="search_form_category"
+                    type="text"
+                    placeholder="Category"
+                  />
+                  <input
+                    id="search_form_category"
+                    type="text"
+                    placeholder="Category"
+                  />
+                  <button
+                    id="search_submit_button"
+                    type="submit"
+                    value="Submit"
+                  >
+                    search course
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="services">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <div className="section_title ">
+                <div className="xet"></div>
+                <h1>Our Services</h1>
+              </div>
+            </div>
+          </div>
+            <div className="services-contanier">
+          <div className="services_row">
+            <div className="service_item">
+              <div className="icon_container">
+                <img
+                  src="https://preview.colorlib.com/theme/course/images/earth-globe.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h3>Online Courses</h3>
+            <p>
+              In aliquam, augue a gravida rutrum, ante nisl fermentum nulla,
+              vitae tempor nisl ligula vel nunc. Proin quis mi malesuada,
+              finibus tortor fermentum.
+            </p>
+          </div></div>
         </div>
       </div>
     </div>
